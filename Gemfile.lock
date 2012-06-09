@@ -1,12 +1,13 @@
 PATH
   remote: .
   specs:
-    gravatarify (2.2.4)
+    gravatarify (3.0.0)
 
 GEM
   remote: http://rubygems.org/
   specs:
     activesupport (3.0.9)
+    rake (0.9.2.2)
     rr (1.0.2)
     shoulda (2.11.3)
 
@@ -16,5 +17,6 @@ PLATFORMS
 DEPENDENCIES
   activesupport (>= 3.0.0)
   gravatarify!
+  rake
   rr (>= 0.10.5)
   shoulda (>= 2.10.2)
